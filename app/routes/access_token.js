@@ -17,7 +17,7 @@ app.post('/', (req, res) => {
     samlServiceProvider.getAccessToken(req.user.email, req.body.scope ).then((accessToken) => {
         res.json(accessToken);
     }).catch((error) => {
-                res.status(500).json(error);
+        res.status(500).json(error);
     });
 })
 

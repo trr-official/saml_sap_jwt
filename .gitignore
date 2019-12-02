@@ -97,3 +97,6 @@ launch.json
 # Keys
 *.pem
 *.key
+
+azure-cli-commands.sh
+azure-pipelines.yml
