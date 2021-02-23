@@ -1,6 +1,8 @@
+var dotenv = require('dotenv');
+dotenv.config();
+
 const app = module.exports = require('express')();
 const {SamlServiceProvider} = require( "../actions/access_token" );
-
 
 const saml_options = {
     issuer : process.env.SAML_ISSUER,

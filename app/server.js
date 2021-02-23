@@ -1,3 +1,6 @@
+var dotenv = require('dotenv');
+dotenv.config();
+
 const Express = require('express');
 const jwt = require('express-jwt');
 const logger = require('debug')('express');
