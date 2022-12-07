@@ -16,7 +16,7 @@
     "request": "^2.88.2",
     "request-promise": "^4.2.5",
     "request-promise-native": "^1.0.8",
-    "saml": "^0.14.0",
+    "saml": "^3.0.1",
     "uuidv1": "^1.6.14"
   },
   "devDependencies": {
